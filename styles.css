@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.hero-img{
+	height:300px;
+	width:500px;
+	object-fit:cover;
+}
+
+.info-container{
+	align-items:center;
+	text-align:center;
+	width:30%
+}
+
+#exp-btn{
+	background-color:red;
+	color:white;
+	padding:10px;
+	border-radius:3px;
+	border:none;
+}
